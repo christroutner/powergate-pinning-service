@@ -5,7 +5,8 @@ import {
 } from "@textile/powergate-client";
 var pow;
 
-const POW_HOST = "http://localhost:6002"; // or whatever powergate instance you want
+// const POW_HOST = "http://localhost:6002"; // or whatever powergate instance you want
+const POW_HOST = "http://127.0.0.1:6002"; // or whatever powergate instance you want
 
 export const getPowergateInstance = () => {
   if (pow) {
